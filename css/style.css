@@ -24,6 +24,7 @@ nav {
 .restaurant-list {
   padding-top: 45px;
   width: 100%;
+  display: inline-block;
 }
 
 .location {
@@ -31,29 +32,33 @@ nav {
   border-bottom: 1px solid #888888;
   width: 100%;
   padding: 3%;
-  display: inline-table;
-
+  display: inline-block;
 }
 
 .location:hover {
     background-color:#B3B3B3;
 }
 
-.arrow {
-  float:right;
-  padding-top: 2%
+ .arrow {
+  display: inline-block
+  width: 8%;
+  box-sizing: border-box;
+  display: inline-block
 }
 
 .content {
-  float: left;
+  display: inline-block
+  box-sizing: border-box;
+  width: 92%;
+  display: inline-block;
 }
 
-h1 {
+.restaurant-list h1 {
   font-size: 150%;
   font-weight: 800;
 }
 
-h3 {
+.restaurant-list h3 {
   font-size: 120%;
   line-height: 1.75
 }
